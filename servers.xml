@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<servers>
+	<server>
+		<ip>183.207.228.9</ip>
+		<port>8004</port>
+		<protocoltype>http</protocoltype>
+		<type>random</type>
+		<user>user1</user>
+		<pass>pass1</pass>
+	</server>
+	<server>
+		<ip>192.168.1.106</ip>
+		<port>333</port>
+		<protocoltype>socks5</protocoltype>
+		<type>strict</type>
+		<user>user2</user>
+		<pass>pass2</pass>
+	</server>
+	<server>
+		<ip>192.168.1.106</ip>
+		<port>331</port>
+		<protocoltype>socks4</protocoltype>
+		<type>random</type>
+		<user>user3</user>
+		<pass>pass3</pass>
+	</server>
+</servers>
